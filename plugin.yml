@@ -1,0 +1,55 @@
+name: realisticFlashlight
+main: nl.patrickdruart.realisticFlashlight.FlashlightPlugin
+version: 1.0
+api-version: 1.13
+author: MrCrackerplays
+description: A realistic flashlight plugin
+depend: [TabuuCore, LightAPI]
+commands:
+   flashlight:
+      aliases: [fl]
+      usage: "/flashlight help"
+   flashlight help:
+      permission: "flashlight.command.help"
+      usage: "/flashlight help"
+   flashlight set:
+      permission: "flashlight.command.set"
+      usage: "/flashlight set <name>"
+   flashlight remove:
+      permission: "flashlight.command.remove"
+      usage: "/flashlight remove <name>"
+   flashlight get:
+      permission: "flashlight.command.get"
+      usage: "/flashlight get [name]"
+   flashlight reload:
+      permission: "flashlight.command.reload"
+      usage: "/flashlight reload [configs/flashlights]"
+   flashlight edit:
+      permission: "flashlight.command.edit"
+      usage: "/flashlight edit <name> <stat> <value>"
+   
+permissions:
+   flashlight.passthrough:
+      description: Allows light of flashlights to go past this player when pointed at them
+      default: false
+   flashlight.command.help:
+      description: Allows the use of the base flashlight command
+      default: true
+   flashlight.command.set:
+      description: Allows the use of the set flashlight command
+      default: op
+   flashlight.command.remove:
+      description: Allows the use of the remove flashlight command
+      default: op
+   flashlight.command.get:
+      description: Allows the use of the get flashlight command
+      default: op
+   flashlight.command.reload.configs:
+      description: Allows the use of the reload configs command
+      default: op
+   flashlight.command.reload.flashlights:
+      description: Allows the use of the reload flashlights command
+      default: op
+   flashlight.command.edit:
+      description: Allows the use of the edit flashlight command
+      default: op

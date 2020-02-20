@@ -1,0 +1,9 @@
+default:
+  ==: org.bukkit.inventory.ItemStack
+  v: 1976
+  type: TORCH
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rFlashlight
+    internal: H4sIAAAAAAAAAFXLUQpAQBRG4V9qaEpZkuKRFzu4xo0phsYVFq9EUs7jV0cDIfSwjtZNxsoBIAoQzdPGnlsoxK1dhJxhvCkkDYmwP/KefMfZWT4eIn298GRdTXIvWn1c0f4/cAFkmE+bfQAAAA==

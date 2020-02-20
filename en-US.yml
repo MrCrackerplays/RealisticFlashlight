@@ -1,0 +1,38 @@
+COMMAND_HELP_HEADER: "&2@=====Help=====@&r"
+COMMAND_HELP_DESCRIPTION: "&7Shows a help menu for information about flashlight commands the user has permission to use&r"
+COMMAND_HELP_SET: "&6'/flashlight set <name>' creates a new (or overwrites an existing) flashlight with the item in the player's Main hand&r"
+COMMAND_HELP_GET: "&b'/flashlight get [name]' gives the player the [name] flashlight. [name] is 'default' if left empty&r"
+COMMAND_HELP_REMOVE: "&e'/flashlight remove <name>' removes the flashlight with the name '<name>'. <name> cannot be left empty&r"
+COMMAND_HELP_RELOAD: "&d'/flashlight reload [configs/flashlights]' reloads the saved information. config or flashlights can be used as an argument to only reload that specific piece of information.&r"
+COMMAND_HELP_EDIT: "&4'/flashlight edit <name> <stat> <value>' changes the <name> flashlight's <stat> to <value>. No argument can be left empty&r"
+COMMAND_HELP_NONE: "&2It appears that you don't have permission to use any flashlight command&r"
+
+COMMAND_SET_DESCRIPTION: "&7Makes the item in the player's main hand a flashlight&r"
+COMMAND_SET_NO_ITEM: "&4Make sure to hold an item in your Main Hand&r"
+COMMAND_SET_SUCCESS: "&aSuccessfully added the&e %name% &r&aflashlight!&r"
+
+COMMAND_GET_DESCRIPTION: "&7Gives the player the flashlight based on its id&r"
+COMMAND_GET_NOT_FOUND: "&4Unable to find the&e %name% &r&4flashlight!&r"
+COMMAND_GET_SUCCESS: "&aSuccessfully got the&e %name% &r&aflashlight!&r"
+
+COMMAND_REMOVE_DESCRIPTION: "&7Removes the flashlight with the given id from the flashlights list&r"
+COMMAND_REMOVE_NOT_FOUND: "&4Unable to find the&e %name% &r&4flashlight!&r"
+COMMAND_REMOVE_SUCCESS: "&aSuccessfully removed the&e %name% &r&aflashlight!&r"
+COMMAND_REMOVE_DEFAULT: "&4You cannot remove the default flashlight!&r"
+
+COMMAND_RELOAD_DESCRIPTION: "&7Reloads the plugin's data&r"
+COMMAND_RELOAD_SUCCESS: "&aSuccessfully reloaded!&r"
+
+COMMAND_EDIT_DESCRIPTION: "&7Edits one stat of a flashlight&r"
+COMMAND_EDIT_NOT_FOUND: "&4Unable to find the&e %name% &r&4flashlight!&r"
+COMMAND_EDIT_STAT_NOT_FOUND: "&4Unable to recognize the&e %stat% &r&4stat!&r"
+COMMAND_EDIT_SUCCESS: "&aSuccessfully edited %name%'s %stat%&r"
+
+
+
+
+
+
+
+
+
