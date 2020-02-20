@@ -1,0 +1,43 @@
+# Config version. Don't change this
+version: 1
+
+# Fallback values if a flashlight doesn't have them defined
+default:
+   # The item material
+   material: TORCH
+   # The item name
+   name: "&rFlashlight"
+   # Whether the flashlight is powered
+   powered: false
+   # The luminocity/light level of the flashlight (0-15)
+   luminocity: 7
+   # The max distance of the flashlight
+   distance: 25
+   # The max capacity of the flashlight's battery 
+   batteryMaxCharge: 120000
+   # The current capacity of the flashlight's battery
+   batteryCharge: 120000
+   # The amount per flashlight update drained from the battery's charge
+   batteryDrainRate: 10
+
+# Settings regarding gameplay
+gameplay:
+   # Whether to use the battery feature
+   useBattery: false
+   # The number of ticks between every flashlight update
+   updateDelay: 3
+   # Whether to use flashlight updates for entities
+   entityCollide: true
+   # Whether light collides with fluids or goes through it
+   fluidCollide: true
+   # Whether light passes through invisible entities
+   passThroughInvisibility: true
+   # Create light async (could cause ghost light, recommend to never put it to true)
+   asyncLighting: false
+   # Whether to use raytracing for the light's position (instead of the less performance heavy but more inacurate blockiterator)
+   detailedLightCheck: true
+   # Whether light passes through see through blocks (e.g. glass) while using raytracing, only applicable when using detailedLightCheck = true (will increase performance cost)
+   passSeeThroughBlocks: true
+
+settings:
+   language-file: "en-US"
