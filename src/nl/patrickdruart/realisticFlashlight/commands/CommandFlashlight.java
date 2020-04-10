@@ -113,7 +113,7 @@ public class CommandFlashlight extends Command {
 				player.sendMessage(dict.translate("COMMAND_SET_NO_ITEM"));
 				return CommandResult.SUCCESS;
 			}
-			if (!arguments.get(0).isPresent() || !((String) arguments.get(0).get()).trim().isEmpty())
+			if (!arguments.get(0).isPresent() || ((String) arguments.get(0).get()).trim().isEmpty())
 				return CommandResult.WRONG_SYNTAX;
 			String name = ((String) arguments.get(0).get()).trim();
 			INBTTagCompound nbt = INBTTagCompound.get(flashlight);

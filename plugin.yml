@@ -1,6 +1,6 @@
-name: realisticFlashlight
+name: RealisticFlashlight
 main: nl.patrickdruart.realisticFlashlight.FlashlightPlugin
-version: 1.0
+version: 1.1
 api-version: 1.13
 author: MrCrackerplays
 description: A realistic flashlight plugin
@@ -8,6 +8,7 @@ depend: [TabuuCore, LightAPI]
 commands:
    flashlight:
       aliases: [fl]
+      permission: "flashlight.command.help"
       usage: "/flashlight help"
    flashlight help:
       permission: "flashlight.command.help"
